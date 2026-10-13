@@ -11,7 +11,7 @@ Daftar Anggota Kelompok:
 Fitur-fitur utama program:
 1. if else: Memastikan PIN yang diinput itu benar. Jika salah dapat diulangi sebanyak tiga kali, lebih dari itu maka kartu PIN akan terblokir.
 2. case of: Dari pilihan 0-4 user dapat menentukan apa langkah selanjutnya dari mesin atm ini (1 : Cek Saldo, 2 : Menyetor Tunai, 3 : Menarik Tunai, 4 : Simulasi Bunga Tabungan, 0 : Menu ATM selesai digunakan).
-Jika pilihan tidak ada diantara list tersebut, maka program akan mengulang menggunakan repeat until.
+Jika pilihan tidak ada di antara list tersebut, maka program akan mengulang menggunakan repeat until.
 3. repeat until: Setelah selesai menggunakan dan memilih angka 0, maka program selesai dijalankan.
 4. for to do: Digunakan untuk simulasi bunga tabungan, karena nanti akan diulang sebanyak berapa lama menabung dalam tahunan.
 5. continue: Dari case of nomor 2 dan 3, jika nominal lebih kecil sama dengan 0, maka program selanjutnya akan dilewati dan langsung kembali ke menu utama.
