@@ -4,10 +4,6 @@
 
 <br><br>
 
-<img src="assets/icon.svg" alt="Ikon MINT: koin emas berhuruf M" width="110">
-
-<br><br>
-
 **Simulasi ATM sederhana yang berjalan penuh warna di terminal, ditulis dengan Pascal.**
 
 <br>
