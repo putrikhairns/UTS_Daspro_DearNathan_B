@@ -127,38 +127,6 @@ end;
 
 <br>
 
-## Cara menjalankan
-
-1. Pasang [Free Pascal](https://www.freepascal.org/download.html).
-2. Compile programnya:
-
-   ```bash
-   fpc MINT.pas
-   ```
-
-3. Jalankan hasilnya:
-
-   ```bash
-   ./MINT        # Linux atau macOS
-   MINT.exe      # Windows
-   ```
-
-Jika karakter blok pada loading bar tampil aneh di terminalmu, ganti `#219` dengan `'#'` pada kode.
-
-<br>
-
-## Struktur repositori
-
-```text
-.
-├── MINT.pas          kode program utama
-├── README.md         dokumentasi ini
-└── assets/
-    ├── banner.svg    banner di bagian atas README
-    └── icon.svg      ikon proyek
-```
-
-<br>
 
 ## Anggota kelompok
 
