@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="MINT, Mini Interactive Teller" width="100%">
+<img src="assets/banner.svg" alt="Banner MINT: Mini Interactive Teller, simulasi ATM berbasis Pascal" width="100%">
 
 <br><br>
 
-<img src="assets/icon.svg" alt="Ikon MINT" width="110">
+<img src="assets/icon.svg" alt="Ikon MINT: koin emas berhuruf M" width="110">
 
 <br><br>
 
@@ -52,6 +52,7 @@ Menu utama:
 2. Setor Tunai
 3. Tarik Tunai
 4. Simulasi Bunga Tabungan
+5. Riwayat Transaksi
 0. Keluar
 ================================
 Pilih menu:
@@ -76,6 +77,7 @@ Riwayat transaksi:
 | 2 | Setor Tunai | Nominal harus lebih dari 0 |
 | 3 | Tarik Tunai | Harus kelipatan Rp50.000 dan tidak melebihi saldo |
 | 4 | Simulasi Bunga Tabungan | Bunga 5% per tahun, dihitung per tahun |
+| 5 | Riwayat Transaksi | Menyimpan 10 transaksi terakhir |
 | 0 | Keluar | Menutup program |
 
 **Login:** PIN diberi 3 kali kesempatan. Jika salah 3 kali, kartu diblokir dan program berhenti.
@@ -92,6 +94,7 @@ Riwayat transaksi:
 | `repeat until` | Menampilkan menu terus-menerus sampai user memilih 0 |
 | `for to do` | Simulasi bunga per tahun, loading bar, dan menampilkan daftar riwayat |
 | `continue` | Melewati sisa perintah dan kembali ke menu jika nominal atau tahun kurang dari atau sama dengan 0 |
+| `array` dan `procedure` | Menyimpan riwayat transaksi lewat prosedur `CatatRiwayat` |
 | `textcolor` | Memberi warna pada teks |
 | `delay` | Menjeda program untuk efek loading |
 
