@@ -15,3 +15,6 @@ Jika pilihan tidak ada di antara list tersebut, maka program akan mengulang meng
 3. repeat until: Setelah selesai menggunakan dan memilih angka 0, maka program selesai dijalankan.
 4. for to do: Digunakan untuk simulasi bunga tabungan, karena nanti akan diulang sebanyak berapa lama menabung dalam tahunan.
 5. continue: Dari case of nomor 2 dan 3, jika nominal lebih kecil sama dengan 0, maka program selanjutnya akan dilewati dan langsung kembali ke menu utama.
+[UPDATE]
+6. delay: delay maksudnya untuk menunggu selama berapa milidetik, contoh: delay(100) itu dia menunggu selama 100 menit
+7. textcolor: mengganti warna text sebelum menulis text tersebut
