@@ -85,6 +85,8 @@ Pilih menu:
 
 ## Anggota kelompok
 
+<div align="center">
+
 | No | Nama | NIM | Kelas |
 |:--:|------|-----|-------|
 | 1 | Nathan Althaafa Rizq | 261401103 | Kom B, Lab 4 |
