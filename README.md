@@ -51,15 +51,6 @@ Menu utama:
 Pilih menu:
 ```
 
-Riwayat transaksi:
-
-```text
-======= RIWAYAT TRANSAKSI =======
-1. Setor  Rp100000   (Saldo: Rp600000)
-2. Tarik  Rp50000   (Saldo: Rp550000)
-=================================
-```
-
 <br>
 
 ## Menu dan aturan
@@ -88,33 +79,6 @@ Riwayat transaksi:
 | `continue` | Melewati sisa perintah dan kembali ke menu jika nominal atau tahun kurang dari atau sama dengan 0 |
 | `textcolor` | Memberi warna pada teks |
 | `delay` | Menjeda program untuk efek loading |
-
-<br>
-
-## Warna dan loading screen
-
-Dua perintah ini berasal dari unit `crt` (`uses crt;`).
-
-**`textcolor`** mengganti warna teks. Tulis sebelum `write` atau `writeln` yang ingin diwarnai.
-
-```pascal
-textcolor(magenta);
-writeln('Dear Nathan');
-```
-
-Hasilnya, tulisan `Dear Nathan` tampil berwarna ungu. Di Pascal, warna ungu bernama `magenta`. Versi terangnya `lightmagenta`.
-
-**`delay`** menunda program selama sekian **milidetik**. `delay(100)` berarti menunggu 0,1 detik, dan `delay(1000)` berarti menunggu 1 detik.
-
-Loading bar dibuat dengan menggabungkan keduanya dalam perulangan:
-
-```pascal
-for k := 1 to 20 do
-begin
-  write(#219);
-  delay(100);
-end;
-```
 
 <br>
 
