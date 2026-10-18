@@ -21,8 +21,6 @@
 
 **MINT** (*Mini Interactive Teller*) menirukan pengalaman memakai mesin ATM: masuk dengan PIN, mengecek saldo, menyetor, menarik uang, melihat riwayat transaksi, dan mencoba simulasi bunga tabungan. Semuanya berjalan di layar terminal dengan tampilan berwarna dan layar pembuka bergaya loading bar.
 
-Proyek ini dibuat untuk UTS mata kuliah **Dasar Pemrograman**, Program Studi Ilmu Komputer, Universitas Sumatera Utara.
-
 <br>
 
 ## Tampilan program
@@ -136,6 +134,6 @@ end;
 
 <div align="center">
 
-Dibuat dengan Pascal oleh Kelompok Kom B, Lab 4, Universitas Sumatera Utara.
+Dibuat dengan Pascal oleh Kelompok Kom B, Lab 4.
 
 </div>
