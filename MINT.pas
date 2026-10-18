@@ -113,15 +113,17 @@ begin
     write('Pilih menu: ');
     textcolor(lightcyan);
     readln(pilih);
-    textcolor(lightgray);
 
     case pilih of
         1: begin
+            clrscr;
             textcolor(yellow);
             writeln('Saldo Anda: Rp', saldo);
+            delay(2000);
         end;
 
         2: begin
+            clrscr;
             textcolor(white);
             write('Nominal setor: Rp');
             textcolor(lightcyan);
@@ -135,9 +137,11 @@ begin
             saldo := saldo + nominal;
             textcolor(lightgreen);
             writeln('Setor berhasil. Saldo sekarang: Rp', saldo);
+            delay(1000);
         end;
 
         3: begin
+            clrscr;
             textcolor(white);
             write('Nominal tarik: Rp');
             textcolor(lightcyan);
@@ -164,9 +168,11 @@ begin
             textcolor(lightgreen);
             writeln('Tarik berhasil. Saldo sekarang: Rp', saldo);
             end;
+            delay(2000);
         end;
 
         4: begin
+            clrscr;
             textcolor(white);
             write('Lama menabung (tahun): ');
             textcolor(lightcyan);
@@ -186,6 +192,7 @@ begin
                saldoSim := saldoSim + saldoSim * BUNGA_PERSEN / 100;
             writeln('  Tahun ke-', i, ' : Rp', saldoSim:0:0);
             end;
+            delay(2000);
         end;
 
         0: begin
