@@ -99,6 +99,8 @@ Pilih menu:
 
 Dibuat dengan Pascal oleh Kelompok Kom B, Lab 4.
 
-<img src="assets/icon.svg" alt="Banner MINT: Mini Interactive Teller, simulasi ATM berbasis Pascal" width="100%">
+<p align="center">
+  <img src="assets/copyright.svg" alt="© DearNathan" height="40">
+</p>
 
 </div>
