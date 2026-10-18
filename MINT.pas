@@ -1,5 +1,4 @@
 program MINT;
-
 uses crt;
 
 const
@@ -137,7 +136,7 @@ begin
             saldo := saldo + nominal;
             textcolor(lightgreen);
             writeln('Setor berhasil. Saldo sekarang: Rp', saldo);
-            delay(1000);
+            delay(2000);
         end;
 
         3: begin
