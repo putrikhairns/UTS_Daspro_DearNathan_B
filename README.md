@@ -82,10 +82,9 @@ Pilih menu:
 
 <br>
 
+<div align="center">
 
 ## Anggota kelompok
-
-<div align="center">
 
 | No | Nama | NIM | Kelas |
 |:--:|------|-----|-------|
