@@ -75,7 +75,7 @@ Pilih menu:
 | `while` dan `break` | Mengulang input PIN sampai 3 kali, berhenti begitu PIN benar |
 | `case of` | Memilih menu 0 sampai 5, dengan `else` untuk pilihan yang tidak valid |
 | `repeat until` | Menampilkan menu terus-menerus sampai user memilih 0 |
-| `for to do` | Simulasi bunga per tahun, loading bar, dan menampilkan daftar riwayat |
+| `for to do` | Simulasi bunga per tahun, dan loading bar |
 | `continue` | Melewati sisa perintah dan kembali ke menu jika nominal atau tahun kurang dari atau sama dengan 0 |
 | `textcolor` | Memberi warna pada teks |
 | `delay` | Menjeda program untuk efek loading |
