@@ -19,7 +19,7 @@
 
 ## Tentang MINT
 
-**MINT** (*Mini Interactive Teller*) menirukan pengalaman memakai mesin ATM: masuk dengan PIN, mengecek saldo, menyetor, menarik uang, melihat riwayat transaksi, dan mencoba simulasi bunga tabungan. Semuanya berjalan di layar terminal dengan tampilan berwarna dan layar pembuka bergaya loading bar.
+**MINT** (*Mini Interactive Teller*) menirukan pengalaman memakai mesin ATM: masuk dengan PIN, mengecek saldo, menyetor, menarik uang, dan mencoba simulasi bunga tabungan. Semuanya berjalan di layar terminal dengan tampilan berwarna dan layar pembuka bergaya loading bar.
 
 <br>
 
